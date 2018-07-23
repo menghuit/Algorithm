@@ -1,5 +1,7 @@
 package com.zd.algorithm;
 
+import java.util.Random;
+
 public final class Utils {
 
 	public static void logLinked(Node<?> head){
@@ -54,5 +56,19 @@ public final class Utils {
 		T tmp = a.data;
 		a.data = b.data;
 		b.data = tmp;
+	}
+	
+	/**
+	 * 生成随机整数数组
+	 * @param count 个数
+	 * @return 数组
+	 */
+	public static int[] genRandomArray(int count) {
+		Random r = new Random();
+		int[] A = new int[count];
+		for(int i = 0; i<count;i++) {
+			A[i] = r.nextInt(count * 10);
+		}
+		return A;
 	}
 }

@@ -1,7 +1,5 @@
 package com.zd.algorithm.sort;
 
-import java.util.LinkedList;
-
 import com.zd.algorithm.Node;
 import com.zd.algorithm.Utils;
 
