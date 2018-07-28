@@ -29,6 +29,7 @@ public class MergeSort {
 		int[] AL = new int[nL];
 		int[] AR = new int[nR];
 
+		// 向两个临时数组里赋值
 		for (int i = 0; i < nL; i++) {
 			AL[i] = nums[left + i];
 		}
