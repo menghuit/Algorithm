@@ -9,6 +9,7 @@ public final class Utils {
 		do {
 			System.out.print(t1.toString() + ",");
 		} while ((t1 = t1.next) != null);
+		System.out.println();
 	}
 
 	public static void logLinkedShort(Node<?> head) {
@@ -16,6 +17,7 @@ public final class Utils {
 		do {
 			System.out.print(t1.toShortString() + ",");
 		} while ((t1 = t1.next) != null);
+		System.out.println();
 	}
 
 	// 头插法 创建单链表
