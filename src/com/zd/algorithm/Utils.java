@@ -93,4 +93,13 @@ public final class Utils {
 		}
 		return A;
 	}
+	
+	public static Integer[] genRandomArray(Integer count) {
+		Random r = new Random();
+		Integer[] A = new Integer[count];
+		for (int i = 0; i < count; i++) {
+			A[i] = r.nextInt(count * 10);
+		}
+		return A;
+	}
 }
