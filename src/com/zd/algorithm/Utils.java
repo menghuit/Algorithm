@@ -94,7 +94,7 @@ public final class Utils {
 		return A;
 	}
 	
-	public static Integer[] genRandomArray(Integer count) {
+	public static Integer[] genRandomIntegerArray(int count) {
 		Random r = new Random();
 		Integer[] A = new Integer[count];
 		for (int i = 0; i < count; i++) {
